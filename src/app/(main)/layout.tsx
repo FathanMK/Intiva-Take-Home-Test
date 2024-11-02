@@ -1,5 +1,5 @@
 import SidebarMain from "@/components/SidebarMain";
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import { SidebarProvider } from "@/components/ui/sidebar";
 import { ReactNode } from "react";
 
 export default function MainLayout({ children }: { children: ReactNode }) {
